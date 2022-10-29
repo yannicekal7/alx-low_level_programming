@@ -1,5 +1,5 @@
 #include "main.h"
-#include "stdio.h"
+#include<stdio.h>
 
 /**
  * more_numbers - nmbr fct
@@ -19,7 +19,7 @@ void more_numbers(void)
 			putchar('1');
 			putchar(j % 10 + '0');
 		}
-		_putchar('\n');
+		putchar('\n');
 	}
 }
 
