@@ -1,5 +1,4 @@
 #include "main.h"
-#include<stdio.h>
 
 /**
  * more_numbers - nmbr fct
@@ -16,10 +15,10 @@ void more_numbers(void)
 		for (i = 1; i <= 10; i++)
 		{
 			if (j >= 10)
-			putchar('1');
-			putchar(j % 10 + '0');
+			_putchar('1');
+			_putchar(j % 10 + '0');
 		}
-		putchar('\n');
+		_putchar('\n');
 	}
 }
 
